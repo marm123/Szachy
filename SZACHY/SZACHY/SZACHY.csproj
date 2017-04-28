@@ -40,9 +40,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Szachy1\Figura.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Szachy1\Figury\Goniec.cs" />
+    <Compile Include="Szachy1\Figury\Kolor\Kolor.cs" />
+    <Compile Include="Szachy1\Figury\Krol.cs" />
+    <Compile Include="Szachy1\Figury\Krolowa.cs" />
+    <Compile Include="Szachy1\Figury\Pionek.cs" />
+    <Compile Include="Szachy1\Szachownica\Pozycja.cs" />
+    <Compile Include="Szachy1\Szachownica\Szachownica.cs" />
+    <Compile Include="Szachy1\Util\Consts.cs" />
+    <Compile Include="Szachy1\Util\Extensions\ArrayExtension.cs" />
+    <Compile Include="Szachy1\Util\Extensions\EnumExtensions.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
